@@ -12,11 +12,11 @@
     <li>
       <a href="#acerca-del-proyecto">Acerca de la prueba</a>
       <ul>
-        <li><a href="#tecnologias-utilizadas">Tecnologías utilizadas</a></li>
+        <li><a href="#tecnologías-utilizadas">Tecnologías utilizadas</a></li>
       </ul>
     </li>
     <li>
-      <a href="#instalacion">Instalación</a>
+      <a href="#instalación">Instalación</a>
     </li>
     <li><a href="#endpoints">Endpoints</a></li>
     <li><a href="#contacto">Contacto</a></li>

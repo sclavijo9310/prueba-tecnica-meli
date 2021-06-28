@@ -6,28 +6,27 @@
   </p>
 </p>
 
-<details open="open">
-  <summary><h2 style="display: inline-block">Contenidos</h2></summary>
-  <ol>
-    <li>
-      <a href="#acerca-del-proyecto">Acerca de la prueba</a>
-      <ul>
-        <li><a href="#tecnologías-utilizadas">Tecnologías utilizadas</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#instalación">Instalación</a>
-      <ul>
-        <li><a href="#prerequisitos">Prerequisitos</a></li>
-        <li><a href="#pasos">Pasos</a></li>
-      </ul>
-    </li>
-    <li><a href="#endpoints">Endpoints</a></li>
-    <li><a href="#ambiente-de-pruebas-en-google-cloud">Ambiente de pruebas en Google Cloud</a></li>
-    <li><a href="#licencia">Licencia</a></li>
-    <li><a href="#contacto">Contacto</a></li>
-  </ol>
-</details>
+##Contenidos
+<summary><h2 style="display: inline-block">Contenidos</h2></summary>
+<ol>
+  <li>
+    <a href="#acerca-del-proyecto">Acerca de la prueba</a>
+    <ul>
+      <li><a href="#tecnologías-utilizadas">Tecnologías utilizadas</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#instalación">Instalación</a>
+    <ul>
+      <li><a href="#prerequisitos">Prerequisitos</a></li>
+      <li><a href="#pasos">Pasos</a></li>
+    </ul>
+  </li>
+  <li><a href="#endpoints">Endpoints</a></li>
+  <li><a href="#ambiente-de-pruebas-en-google-cloud">Ambiente de pruebas en Google Cloud</a></li>
+  <li><a href="#licencia">Licencia</a></li>
+  <li><a href="#contacto">Contacto</a></li>
+</ol>
 
 ## Acerca del proyecto
 

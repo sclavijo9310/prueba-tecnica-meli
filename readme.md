@@ -17,8 +17,14 @@
     </li>
     <li>
       <a href="#instalación">Instalación</a>
+      <ul>
+        <li><a href="#prerequisitos">Prerequisitos</a></li>
+        <li><a href="#pasos">Pasos</a></li>
+      </ul>
     </li>
     <li><a href="#endpoints">Endpoints</a></li>
+    <li><a href="#ambiente-de-pruebas-en-google-cloud">Ambiente de pruebas en Google Cloud</a></li>
+    <li><a href="#licencia">Licencia</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ol>
 </details>
@@ -34,12 +40,14 @@ despliega en Google App Engine con un entorno estándar "python39".
 * [Flask](https://flask.palletsprojects.com/) - Framework para construir API Rest.
 * [Localization](https://pypi.org/project/Localization/) - Dependencia usada entra otras cosas para realizar
   trilateración 2D.
-  
-## Prerequisitos
+
+## Instalación
+
+### Prerequisitos
 
 * Python 3
 
-## Instalación
+###Pasos
 
 1. Clonar repositorio
    ```sh
@@ -64,6 +72,11 @@ despliega en Google App Engine con un entorno estándar "python39".
 | POST  | /topsecret-split/{nombre_satelite} | Establecer valores de distancia y mensaje para el satélite definido en la URL. |
 | DELETE  | /topsecret | Elimina los datos de distancia y mensaje en todos los satélites. |
 | DELETE  | /topsecret-split/{nombre_satelite} | Elimina los datos de distancia y mensaje en el satélite definido en la URL. |
+
+##Ambiente de pruebas en Google Cloud
+
+Se realizó despligue de ambiente para pruebas en Google Cloud, usando App Egnine (Datastore para los servicios de nivel 3), URL:
+* [prueba-meli.ml](https://prueba-meli.ml) ó [prueba-tecnica-meli.ue.r.appspot.com](https://prueba-tecnica-meli.ue.r.appspot.com)
 
 ## Licencia
 

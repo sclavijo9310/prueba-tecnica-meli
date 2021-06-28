@@ -23,6 +23,11 @@ def common_response():
     })
 
 
+@app.route('/')
+def index():
+    return jsonify({'message': 'Online and ready'})
+
+
 @app.route('/topsecret/', methods=['POST'])
 @app.route('/topsecret-split/', methods=['POST'])
 def topsecret():

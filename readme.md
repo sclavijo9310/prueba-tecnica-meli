@@ -69,7 +69,6 @@ despliega en Google App Engine con un entorno estándar "python39".
 | POST  | /topsecret | Establecer valores de distancia y mensaje para los satélites, devuelve datos de ubicación y mensaje de la nave portacarga imperial. |
 | POST  | /topsecret-split  | Establecer valores de distancia y mensaje para los satélites, devuelve datos de ubicación y mensaje de la nave portacarga imperial. |
 | POST  | /topsecret-split/{nombre_satelite} | Establecer valores de distancia y mensaje para el satélite definido en la URL. |
-| DELETE  | /topsecret | Elimina los datos de distancia y mensaje en todos los satélites. |
 | DELETE  | /topsecret-split/{nombre_satelite} | Elimina los datos de distancia y mensaje en el satélite definido en la URL. |
 
 ##Ambiente de pruebas en Google Cloud

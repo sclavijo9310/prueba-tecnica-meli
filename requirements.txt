@@ -3,3 +3,4 @@ flask
 numpy
 scipy
 shapely
+google-cloud-datastore

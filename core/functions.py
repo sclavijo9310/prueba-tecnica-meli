@@ -55,7 +55,7 @@ def get_message(messages):
     return ' '.join(result)
 
 
-def validate_data():
-    for satellite in satellites_data:
+def validate_data(data=satellites_data):
+    for satellite in data:
         if satellite.distance is None or satellite.message is None or len(satellite.message) == 0:
             raise MissingData()

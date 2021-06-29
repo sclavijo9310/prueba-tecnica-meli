@@ -1,13 +1,13 @@
-<p align="center">
+<div align="center">
   <h2 align="center">Prueba técnica MELI</h2>
 
   <p align="center">
     Este repositorio contiene la solución a la prueba "operación fuego de quasar" de MELI
   </p>
-</p>
+</div>
 
-##Contenidos
-<summary><h2 style="display: inline-block">Contenidos</h2></summary>
+## Contenidos
+
 <ol>
   <li>
     <a href="#acerca-del-proyecto">Acerca de la prueba</a>
@@ -46,7 +46,7 @@ despliega en Google App Engine con un entorno estándar "python39".
 
 * Python 3
 
-###Pasos
+### Pasos
 
 1. Clonar repositorio
    ```sh
@@ -71,10 +71,13 @@ despliega en Google App Engine con un entorno estándar "python39".
 | POST  | /topsecret-split/{nombre_satelite} | Establecer valores de distancia y mensaje para el satélite definido en la URL. |
 | DELETE  | /topsecret-split/{nombre_satelite} | Elimina los datos de distancia y mensaje en el satélite definido en la URL. |
 
-##Ambiente de pruebas en Google Cloud
+## Ambiente de pruebas en Google Cloud
 
-Se realizó despligue de ambiente para pruebas en Google Cloud, usando App Egnine (Datastore para los servicios de nivel 3), URL:
-* [prueba-meli.ml](https://prueba-meli.ml) ó [prueba-tecnica-meli.ue.r.appspot.com](https://prueba-tecnica-meli.ue.r.appspot.com)
+Se realizó despligue de ambiente para pruebas en Google Cloud, usando App Egnine (Datastore para los servicios de nivel
+3), URL:
+
+* [prueba-meli.ml](https://prueba-meli.ml)
+  ó [prueba-tecnica-meli.ue.r.appspot.com](https://prueba-tecnica-meli.ue.r.appspot.com)
 
 ## Licencia
 
